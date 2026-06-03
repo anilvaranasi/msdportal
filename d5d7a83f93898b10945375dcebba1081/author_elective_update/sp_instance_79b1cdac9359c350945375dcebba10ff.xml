@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <advanced_placeholder_dimensions>true</advanced_placeholder_dimensions>
+        <async_load>true</async_load>
+        <async_load_device_type>desktop,mobile,tablet</async_load_device_type>
+        <async_load_trigger>viewport</async_load_trigger>
+        <class_name/>
+        <color>default</color>
+        <css>.my-items-container{
+  margin-left:0px;
+  margin-right:0px;
+}</css>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <placeholder_dimensions>{
+  "mobile": {
+    "height": "100%",
+    "width": "100%"
+  },
+  "desktop": {
+    "height": "100%",
+    "width": "100%"
+  },
+  "tablet": {
+    "height": "100%",
+    "width": "100%"
+  }
+}</placeholder_dimensions>
+        <placeholder_dimensions_script><![CDATA[function evaluateConfig(options) {
+    return {
+        "mobile": {
+            "height": "100%",
+            "width": "100%"
+        },
+        "desktop": {
+            "height": "100%",
+            "width": "100%"
+        },
+        "tablet": {
+            "height": "100%",
+            "width": "100%"
+        },
+        title: gs.getMessage("My active items")
+    };
+}]]></placeholder_dimensions_script>
+        <placeholder_template>&lt;div class="skeleton-loader-container my-items-skeleton skeleton-loading panel flex-column"&gt;
+  &lt;div class="panel-heading b-b"&gt;
+    &lt;h3 class="panel-title"&gt;
+      {{options.advancedOptions.title}}
+    &lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;div class="skeleton-loader-body panel-body"&gt;
+    &lt;div class="skeleton-item-half-width skeleton-item primary-activity-heading-loader"&gt;&lt;/div&gt;
+    &lt;div ng-class="options.card_behaviour == 'single' ? 'single-view' : 'wrap-view'"&gt;
+      &lt;div class="skeleton-loading-card-container" ng-repeat="x in ([].constructor(options.list_view_count*1)) track by $index"&gt;
+        &lt;div class="skeleton-loading-card flex-column"&gt;
+          &lt;span class="skeleton-item-quarter-width skeleton-item item-badge-loader"&gt;&lt;/span&gt;
+          &lt;span class="skeleton-item-full-width skeleton-item item-title-loader"&gt;&lt;/span&gt;
+          &lt;span class="skeleton-item-half-width skeleton-item item-field-loader"&gt;&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="summary-view-container"&gt;
+      &lt;div class="summary-view-grid-container" ng-repeat="item in [1,2,3,4,5,6]"&gt;
+        &lt;div&gt;
+          &lt;div class="skeleton-item skeleton-item-half-width secondary-activity-loader"&gt;&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</placeholder_template>
+        <preserve_placeholder_size>false</preserve_placeholder_size>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f1b1cdac9359c350945375dcebba10ea</sp_column>
+        <sp_widget display_value="My Items">6e449453c33030105a09f0ad9840ddf0</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:34:52</sys_created_on>
+        <sys_id>79b1cdac9359c350945375dcebba10ff</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>My Items</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>sp_instance_79b1cdac9359c350945375dcebba10ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:41:26</sys_updated_on>
+        <title>My Items</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=79b1cdac9359c350945375dcebba10ff"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="msdportal">d5d7a83f93898b10945375dcebba1081</application>
+        <file_path/>
+        <instance_id>59e41c79473356186f9ce676706d4384</instance_id>
+        <instance_name>dev296271</instance_name>
+        <name>sp_instance_79b1cdac9359c350945375dcebba10ff</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;true&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;true&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,mobile,tablet&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css&gt;.my-items-container{
+  margin-left:0px;
+  margin-right:0px;
+}&lt;/css&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder_dimensions&gt;{
+  "mobile": {
+    "height": "100%",
+    "width": "100%"
+  },
+  "desktop": {
+    "height": "100%",
+    "width": "100%"
+  },
+  "tablet": {
+    "height": "100%",
+    "width": "100%"
+  }
+}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) {
+    return {
+        "mobile": {
+            "height": "100%",
+            "width": "100%"
+        },
+        "desktop": {
+            "height": "100%",
+            "width": "100%"
+        },
+        "tablet": {
+            "height": "100%",
+            "width": "100%"
+        },
+        title: gs.getMessage("My active items")
+    };
+}]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;div class="skeleton-loader-container my-items-skeleton skeleton-loading panel flex-column"&amp;gt;
+  &amp;lt;div class="panel-heading b-b"&amp;gt;
+    &amp;lt;h3 class="panel-title"&amp;gt;
+      {{options.advancedOptions.title}}
+    &amp;lt;/h3&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;div class="skeleton-loader-body panel-body"&amp;gt;
+    &amp;lt;div class="skeleton-item-half-width skeleton-item primary-activity-heading-loader"&amp;gt;&amp;lt;/div&amp;gt;
+    &amp;lt;div ng-class="options.card_behaviour == 'single' ? 'single-view' : 'wrap-view'"&amp;gt;
+      &amp;lt;div class="skeleton-loading-card-container" ng-repeat="x in ([].constructor(options.list_view_count*1)) track by $index"&amp;gt;
+        &amp;lt;div class="skeleton-loading-card flex-column"&amp;gt;
+          &amp;lt;span class="skeleton-item-quarter-width skeleton-item item-badge-loader"&amp;gt;&amp;lt;/span&amp;gt;
+          &amp;lt;span class="skeleton-item-full-width skeleton-item item-title-loader"&amp;gt;&amp;lt;/span&amp;gt;
+          &amp;lt;span class="skeleton-item-half-width skeleton-item item-field-loader"&amp;gt;&amp;lt;/span&amp;gt;
+        &amp;lt;/div&amp;gt;
+      &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;div class="summary-view-container"&amp;gt;
+      &amp;lt;div class="summary-view-grid-container" ng-repeat="item in [1,2,3,4,5,6]"&amp;gt;
+        &amp;lt;div&amp;gt;
+          &amp;lt;div class="skeleton-item skeleton-item-half-width secondary-activity-loader"&amp;gt;&amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+      &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;f1b1cdac9359c350945375dcebba10ea&lt;/sp_column&gt;&lt;sp_widget display_value="My Items"&gt;6e449453c33030105a09f0ad9840ddf0&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-02 10:34:52&lt;/sys_created_on&gt;&lt;sys_id&gt;79b1cdac9359c350945375dcebba10ff&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Items&lt;/sys_name&gt;&lt;sys_package display_value="msdportal" source="x_146833_msdportal"&gt;d5d7a83f93898b10945375dcebba1081&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="msdportal"&gt;d5d7a83f93898b10945375dcebba1081&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_79b1cdac9359c350945375dcebba10ff&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-02 10:41:26&lt;/sys_updated_on&gt;&lt;title&gt;My Items&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters/&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=79b1cdac9359c350945375dcebba10ff"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-378869758</payload_hash>
+        <record_name>My Items</record_name>
+        <reverted_from/>
+        <source>a6a5bc339381cb10945375dcebba1032</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:41:26</sys_created_on>
+        <sys_id>023341e09399c350945375dcebba1037</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e87ec89d40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:41:26</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>8e3341e00d99c350f302fc0dcbad3435</update_guid>
+        <update_guid_history>8e3341e00d99c350f302fc0dcbad3435:-378869758,0e3301e0bd99c350d940351e9c47bcdd:1848845213,94b289604b99c350866130962181d011:-378869758,75b101ecbb59c35005f3424579db7002:1098983806</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Items">c143c1e09399c350945375dcebba1082</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:41:37</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>9ad25345fd574819b3ba523aaf84a229</sys_id>
+        <sys_metadata>79b1cdac9359c350945375dcebba10ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Items</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_scope_delete display_value="">02d61efef9434e308105e71a1139e190</sys_scope_delete>
+        <sys_update_name>sp_instance_79b1cdac9359c350945375dcebba10ff</sys_update_name>
+        <sys_update_version display_value="sp_instance_79b1cdac9359c350945375dcebba10ff">023341e09399c350945375dcebba1037</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:41:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

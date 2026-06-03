@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rectangle_menu_item">
+    <sp_rectangle_menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <color>default</color>
+        <condition/>
+        <display_1/>
+        <display_2/>
+        <display_date/>
+        <filter/>
+        <glyph>empty</glyph>
+        <hint/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <label>Raise an Incident</label>
+        <order>100</order>
+        <record_script/>
+        <sc_cat_item display_value="Raise a General Request">d16049689359c350945375dcebba10d9</sc_cat_item>
+        <sc_category/>
+        <short_description/>
+        <sp_page display_value="esc_sc_cat_item">c0728d1373675300c629e1e54cf6a7b3</sp_page>
+        <sp_rectangle_menu/>
+        <sp_rectangle_menu_item display_value="IT Services">a6af30689359c350945375dcebba1038</sp_rectangle_menu_item>
+        <sys_class_name>sp_rectangle_menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:31:44</sys_created_on>
+        <sys_id>8401852c9359c350945375dcebba1030</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Raise an Incident</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>sp_rectangle_menu_item_8401852c9359c350945375dcebba1030</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:33:44</sys_updated_on>
+        <table/>
+        <type>sc_cat_item</type>
+        <url/>
+        <url_target/>
+    </sp_rectangle_menu_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=8401852c9359c350945375dcebba1030"/>
+</record_update>

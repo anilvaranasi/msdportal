@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_uc_can_read_mtom">
+    <kb_uc_can_read_mtom action="INSERT_OR_UPDATE">
+        <kb_knowledge_base display_value="ITMS Knowledge Base">8c27096c9399c350945375dcebba10b1</kb_knowledge_base>
+        <sys_class_name>kb_uc_can_read_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:58:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8827496c9399c350945375dcebba1045</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITMS Knowledge Base.Any User</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>kb_uc_can_read_mtom_8827496c9399c350945375dcebba1045</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:58:30</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </kb_uc_can_read_mtom>
+</record_update>

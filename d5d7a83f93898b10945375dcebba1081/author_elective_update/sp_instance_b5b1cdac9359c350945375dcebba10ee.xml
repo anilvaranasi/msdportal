@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <advanced_placeholder_dimensions>true</advanced_placeholder_dimensions>
+        <async_load>true</async_load>
+        <async_load_device_type>desktop,mobile,tablet</async_load_device_type>
+        <async_load_trigger>viewport</async_load_trigger>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <placeholder_dimensions>{
+  "mobile": {
+    "height": "100%",
+    "width": "100%"
+  },
+  "desktop": {
+    "height": "100%",
+    "width": "100%"
+  },
+  "tablet": {
+    "height": "100%",
+    "width": "100%"
+  }
+}</placeholder_dimensions>
+        <placeholder_dimensions_script><![CDATA[function evaluateConfig(options) {
+    return {
+        "mobile": {
+            "height": "100%",
+            "width": "100%"
+        },
+        "desktop": {
+            "height": "100%",
+            "width": "100%"
+        },
+        "tablet": {
+            "height": "100%",
+            "width": "100%"
+        },
+	title: gs.getMessage(options.title) || gs.getMessage('Quick links')
+    };
+}]]></placeholder_dimensions_script>
+        <placeholder_template>&lt;div class="skeleton-loader-container panel panel-wrapper"&gt;
+  &lt;div class="panel-heading b-b"&gt;
+    &lt;h3 class="panel-title"&gt;
+      {{options.advancedOptions.title}}
+    &lt;/h3&gt;
+  &lt;/div&gt;
+  &lt;div class="skeleton-loader-body panel-body"&gt;
+    &lt;div class="skeleton-loading-card-container skeleton-quicklink-grid"
+         ng-init="quickLinkArray = (options.quick_links ? options.quick_links.split(',') : [].constructor(3)).slice(0,6)"&gt;
+      &lt;div class="skeleton-loader-card-quicklink skeleton-item-quicklink"
+           ng-repeat="item in quickLinkArray track by $index"&gt;
+        &lt;div class="skeleton-item"&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</placeholder_template>
+        <preserve_placeholder_size>false</preserve_placeholder_size>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f1b1cdac9359c350945375dcebba10ea</sp_column>
+        <sp_widget display_value="Quick Links">dae53627530030101865ddeeff7b12be</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:34:51</sys_created_on>
+        <sys_id>b5b1cdac9359c350945375dcebba10ee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Quick Links</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>sp_instance_b5b1cdac9359c350945375dcebba10ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:39:07</sys_updated_on>
+        <title>Quick Links</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Medium",
+		"displayValue": "Medium"
+	},
+	"text_alignment": {
+		"value": "Center",
+		"displayValue": "Center"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_description": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"background_color": {
+		"value": "",
+		"displayValue": ""
+	},
+	"background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_color": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"quick_links": {
+		"value": "9b729365e71130104cda66ef11e8a9a7,aff317a5e71130104cda66ef11e8a939,4e116048e76530104cda66ef11e8a9bc",
+		"displayValue": [
+			"Password Reset",
+			"System Status",
+			"Request Standing Desk"
+		]
+	},
+	"show_text_overlay": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"text_overlay_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"text_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_color_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"load_config": {
+		"value": "async",
+		"displayValue": "async"
+	},
+	"show_empty_state": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=b5b1cdac9359c350945375dcebba10ee"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="msdportal">d5d7a83f93898b10945375dcebba1081</application>
+        <file_path/>
+        <instance_id>59e41c79473356186f9ce676706d4384</instance_id>
+        <instance_name>dev296271</instance_name>
+        <name>sp_instance_b5b1cdac9359c350945375dcebba10ee</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;true&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;true&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,mobile,tablet&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;placeholder_dimensions&gt;{
+  "mobile": {
+    "height": "100%",
+    "width": "100%"
+  },
+  "desktop": {
+    "height": "100%",
+    "width": "100%"
+  },
+  "tablet": {
+    "height": "100%",
+    "width": "100%"
+  }
+}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) {
+    return {
+        "mobile": {
+            "height": "100%",
+            "width": "100%"
+        },
+        "desktop": {
+            "height": "100%",
+            "width": "100%"
+        },
+        "tablet": {
+            "height": "100%",
+            "width": "100%"
+        },
+	title: gs.getMessage(options.title) || gs.getMessage('Quick links')
+    };
+}]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;div class="skeleton-loader-container panel panel-wrapper"&amp;gt;
+  &amp;lt;div class="panel-heading b-b"&amp;gt;
+    &amp;lt;h3 class="panel-title"&amp;gt;
+      {{options.advancedOptions.title}}
+    &amp;lt;/h3&amp;gt;
+  &amp;lt;/div&amp;gt;
+  &amp;lt;div class="skeleton-loader-body panel-body"&amp;gt;
+    &amp;lt;div class="skeleton-loading-card-container skeleton-quicklink-grid"
+         ng-init="quickLinkArray = (options.quick_links ? options.quick_links.split(',') : [].constructor(3)).slice(0,6)"&amp;gt;
+      &amp;lt;div class="skeleton-loader-card-quicklink skeleton-item-quicklink"
+           ng-repeat="item in quickLinkArray track by $index"&amp;gt;
+        &amp;lt;div class="skeleton-item"&amp;gt;&amp;lt;/div&amp;gt;
+      &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+  &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;f1b1cdac9359c350945375dcebba10ea&lt;/sp_column&gt;&lt;sp_widget display_value="Quick Links"&gt;dae53627530030101865ddeeff7b12be&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-02 10:34:51&lt;/sys_created_on&gt;&lt;sys_id&gt;b5b1cdac9359c350945375dcebba10ee&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Quick Links&lt;/sys_name&gt;&lt;sys_package display_value="msdportal" source="x_146833_msdportal"&gt;d5d7a83f93898b10945375dcebba1081&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="msdportal"&gt;d5d7a83f93898b10945375dcebba1081&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_b5b1cdac9359c350945375dcebba10ee&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-02 10:39:07&lt;/sys_updated_on&gt;&lt;title&gt;Quick Links&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"card_type": {
+		"value": "Thumbnail",
+		"displayValue": "Thumbnail"
+	},
+	"card_size": {
+		"value": "Medium",
+		"displayValue": "Medium"
+	},
+	"text_alignment": {
+		"value": "Center",
+		"displayValue": "Center"
+	},
+	"show_icon": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_background": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_description": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"background_color": {
+		"value": "",
+		"displayValue": ""
+	},
+	"background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_color": {
+		"value": "",
+		"displayValue": ""
+	},
+	"icon_background_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"quick_links": {
+		"value": "9b729365e71130104cda66ef11e8a9a7,aff317a5e71130104cda66ef11e8a939,4e116048e76530104cda66ef11e8a9bc",
+		"displayValue": [
+			"Password Reset",
+			"System Status",
+			"Request Standing Desk"
+		]
+	},
+	"show_text_overlay": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"text_overlay_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"text_color": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"text_color_hexcode": {
+		"value": "",
+		"displayValue": ""
+	},
+	"load_config": {
+		"value": "async",
+		"displayValue": "async"
+	},
+	"show_empty_state": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b5b1cdac9359c350945375dcebba10ee"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1047446628</payload_hash>
+        <record_name>Quick Links</record_name>
+        <reverted_from/>
+        <source>a6a5bc339381cb10945375dcebba1032</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:39:07</sys_created_on>
+        <sys_id>50b289609399c350945375dcebba102c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e87ea6ba90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:39:07</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>dcb28960e199c3503429e92bb07e602a</update_guid>
+        <update_guid_history>dcb28960e199c3503429e92bb07e602a:1047446628,b1b1cdac7559c3508f56e1ad038fecf1:179688133</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Quick Links">a5e2c9609399c350945375dcebba108b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:40:01</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>b39b5a2c17f744188e921c6906551c40</sys_id>
+        <sys_metadata>b5b1cdac9359c350945375dcebba10ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quick Links</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_scope_delete display_value="">02d61efef9434e308105e71a1139e190</sys_scope_delete>
+        <sys_update_name>sp_instance_b5b1cdac9359c350945375dcebba10ee</sys_update_name>
+        <sys_update_version display_value="sp_instance_b5b1cdac9359c350945375dcebba10ee">50b289609399c350945375dcebba102c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:40:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

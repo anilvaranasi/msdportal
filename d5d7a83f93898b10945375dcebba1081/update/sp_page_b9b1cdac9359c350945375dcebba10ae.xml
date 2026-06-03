@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>$background-desktop: "e93aac2effa1a2105703ffffffffff90.iix";&#13;
+$background-mobile: "223a20eeffa1a2105703ffffffffffa1.iix";&#13;
+&#13;
+// MSD-Themed Homepage &amp; Layout Styles&#13;
+&#13;
+main.body {&#13;
+    background-image: url($background-desktop);&#13;
+    background-color: $body-bg; // #F5F5F5 fallback&#13;
+    padding-top: 0rem !important;&#13;
+    background-repeat: no-repeat;&#13;
+    background-size: 100% 100rem;&#13;
+    background-attachment: fixed;&#13;
+    background-position: center top;&#13;
+}&#13;
+&#13;
+/* Padding for container after banner image */&#13;
+.padding-top {&#13;
+    padding-top: 2.4rem;&#13;
+}&#13;
+&#13;
+/* Padding bottom after each widget */&#13;
+.child-b-margin &gt; span &gt; div &gt; * {&#13;
+    margin-bottom: 2.4rem;&#13;
+}&#13;
+&#13;
+/* Mobile banner positioning */&#13;
+.mobile-banner {&#13;
+    background-position: right bottom !important;&#13;
+}&#13;
+&#13;
+/* Max width for Containers to stay in view port */&#13;
+.container {&#13;
+    max-width: 100%;&#13;
+    background-color: transparent; // Let body background show through&#13;
+}&#13;
+&#13;
+// MSD-specific content containers&#13;
+.content-wrapper {&#13;
+    background-color: rgba(255, 255, 255, 0.95); // Slight transparency&#13;
+    border-radius: 0.5rem;&#13;
+    padding: 2rem;&#13;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);&#13;
+}&#13;
+&#13;
+// Featured content accent (MSD red)&#13;
+.featured-section {&#13;
+    border-left: 4px solid $brand-primary; // #D72828&#13;
+    padding-left: 1.5rem;&#13;
+}&#13;
+&#13;
+// Section dividers&#13;
+.section-divider {&#13;
+    height: 2px;&#13;
+    background: linear-gradient(to right, $brand-primary, transparent);&#13;
+    margin: 2rem 0;&#13;
+}&#13;
+&#13;
+// Mobile responsive styles&#13;
+@container (max-width: 48em) {&#13;
+    .page-0987d9aa53331210b8f2ddeeff7b129d main.body {&#13;
+        background-image: url($background-mobile);&#13;
+        background-size: 100% auto;&#13;
+    }&#13;
+    &#13;
+    .child-b-margin &gt; span &gt; div &gt; * {&#13;
+        margin-bottom: 1.6rem;&#13;
+    }&#13;
+    &#13;
+    .padding-right {&#13;
+        padding-right: 0rem;&#13;
+    }&#13;
+    &#13;
+    .padding-top {&#13;
+        padding-top: 1.6rem;&#13;
+    }&#13;
+    &#13;
+    // Mobile content wrapper&#13;
+    .content-wrapper {&#13;
+        padding: 1.5rem;&#13;
+        border-radius: 0.25rem;&#13;
+    }&#13;
+}&#13;
+&#13;
+// Tablet and small desktop&#13;
+@container (max-width: 62em) {&#13;
+    .container {&#13;
+        width: 100%;&#13;
+        padding-left: 1rem;&#13;
+        padding-right: 1rem;&#13;
+    }&#13;
+    &#13;
+    .col-md-4 {&#13;
+        width: 100%;&#13;
+        margin-bottom: 1.6rem;&#13;
+    }&#13;
+    &#13;
+    .col-md-8 {&#13;
+        width: 100%;&#13;
+    }&#13;
+    &#13;
+    .left-column {&#13;
+        padding-left: 2.4rem;&#13;
+        padding-right: 2.4rem;&#13;
+    }&#13;
+    &#13;
+    .right-column {&#13;
+        padding-left: 2.4rem;&#13;
+        padding-right: 2.4rem;&#13;
+    }&#13;
+}&#13;
+&#13;
+// Desktop and large screens&#13;
+@container (min-width: 62em) {&#13;
+    .container {&#13;
+        padding-left: 1.2rem;&#13;
+        padding-right: 1.2rem;&#13;
+        max-width: 1400px; // Optional max width for very large screens&#13;
+        margin: 0 auto;&#13;
+    }&#13;
+    &#13;
+    .left-column {&#13;
+        padding-right: 0rem;&#13;
+    }&#13;
+    &#13;
+    .right-column {&#13;
+        padding-left: 2.4rem;&#13;
+        padding-right: 1.6rem;&#13;
+    }&#13;
+}&#13;
+&#13;
+// MSD-specific enhancements&#13;
+// Hero section with MSD branding&#13;
+.hero-section {&#13;
+    background: linear-gradient(135deg, rgba(30, 30, 30, 0.9) 0%, rgba(215, 40, 40, 0.8) 100%);&#13;
+    color: #FFFFFF;&#13;
+    padding: 4rem 2rem;&#13;
+    border-radius: 0.5rem;&#13;
+    margin-bottom: 2.4rem;&#13;
+    &#13;
+    h1, h2 {&#13;
+        color: #FFFFFF;&#13;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);&#13;
+    }&#13;
+    &#13;
+    .btn-primary {&#13;
+        background-color: #FFFFFF;&#13;
+        color: $brand-primary; // #D72828&#13;
+        border: none;&#13;
+        &#13;
+        &amp;:hover {&#13;
+            background-color: $brand-primary;&#13;
+            color: #FFFFFF;&#13;
+        }&#13;
+    }&#13;
+}&#13;
+&#13;
+// Card styling with MSD theme&#13;
+.card, .panel {&#13;
+    background-color: #FFFFFF;&#13;
+    border: 1px solid #E0E0E0;&#13;
+    border-radius: 0.5rem;&#13;
+    transition: all 0.3s ease;&#13;
+    &#13;
+    &amp;:hover {&#13;
+        box-shadow: 0 4px 12px rgba(215, 40, 40, 0.15);&#13;
+        border-color: rgba(215, 40, 40, 0.3);&#13;
+        transform: translateY(-2px);&#13;
+    }&#13;
+    &#13;
+    .card-header, .panel-heading {&#13;
+        background-color: #F5F5F5;&#13;
+        border-bottom: 2px solid $brand-primary; // #D72828&#13;
+        color: $text-color; // #212529&#13;
+        font-weight: 600;&#13;
+    }&#13;
+}&#13;
+&#13;
+// Sidebar styling&#13;
+.sidebar {&#13;
+    background-color: #FFFFFF;&#13;
+    border-radius: 0.5rem;&#13;
+    padding: 1.5rem;&#13;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);&#13;
+    &#13;
+    h3, h4 {&#13;
+        color: $brand-primary; // #D72828&#13;
+        border-bottom: 2px solid $brand-primary;&#13;
+        padding-bottom: 0.5rem;&#13;
+        margin-bottom: 1rem;&#13;
+    }&#13;
+    &#13;
+    ul {&#13;
+        list-style: none;&#13;
+        padding-left: 0;&#13;
+        &#13;
+        li {&#13;
+            padding: 0.5rem 0;&#13;
+            border-bottom: 1px solid #E0E0E0;&#13;
+            &#13;
+            &amp;:last-child {&#13;
+                border-bottom: none;&#13;
+            }&#13;
+            &#13;
+            a {&#13;
+                color: $link-color; // #0076D6&#13;
+                text-decoration: none;&#13;
+                &#13;
+                &amp;:hover {&#13;
+                    color: $brand-primary; // #D72828&#13;
+                }&#13;
+            }&#13;
+        }&#13;
+    }&#13;
+}&#13;
+&#13;
+// Alert/Notification styling with MSD colors&#13;
+.alert-banner {&#13;
+    background-color: rgba(215, 40, 40, 0.1);&#13;
+    border-left: 4px solid $brand-primary; // #D72828&#13;
+    padding: 1rem 1.5rem;&#13;
+    margin-bottom: 1.6rem;&#13;
+    border-radius: 0.25rem;&#13;
+    &#13;
+    &amp;.alert-info {&#13;
+        background-color: rgba(0, 118, 214, 0.1);&#13;
+        border-left-color: $brand-info; // #0076D6&#13;
+    }&#13;
+    &#13;
+    &amp;.alert-success {&#13;
+        background-color: rgba(40, 167, 69, 0.1);&#13;
+        border-left-color: $brand-success; // #28A745&#13;
+    }&#13;
+    &#13;
+    &amp;.alert-warning {&#13;
+        background-color: rgba(255, 193, 7, 0.1);&#13;
+        border-left-color: $brand-warning; // #FFC107&#13;
+    }&#13;
+}&#13;
+&#13;
+// Footer styling&#13;
+.footer {&#13;
+    background-color: $navbar-inverse-bg; // #1E1E1E&#13;
+    color: #FFFFFF;&#13;
+    padding: 2rem 0;&#13;
+    margin-top: 4rem;&#13;
+    &#13;
+    a {&#13;
+        color: #FFFFFF;&#13;
+        &#13;
+        &amp;:hover {&#13;
+            color: $brand-primary; // #D72828&#13;
+        }&#13;
+    }&#13;
+    &#13;
+    .footer-divider {&#13;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);&#13;
+        margin: 1.5rem 0;&#13;
+    }&#13;
+}&#13;
+&#13;
+// Breadcrumb integration&#13;
+.breadcrumb {&#13;
+    background-color: transparent;&#13;
+    padding: 1rem 0;&#13;
+    &#13;
+    .breadcrumb-item {&#13;
+        color: $text-muted; // #6C757D&#13;
+        &#13;
+        a {&#13;
+            color: $link-color; // #0076D6&#13;
+            &#13;
+            &amp;:hover {&#13;
+                color: $brand-primary; // #D72828&#13;
+            }&#13;
+        }&#13;
+        &#13;
+        &amp;.active {&#13;
+            color: $text-color; // #212529&#13;
+        }&#13;
+        &#13;
+        + .breadcrumb-item::before {&#13;
+            color: $text-muted;&#13;
+        }&#13;
+    }&#13;
+}&#13;
+&#13;
+// Loading states&#13;
+.loading-overlay {&#13;
+    background-color: rgba(30, 30, 30, 0.7);&#13;
+    &#13;
+    .spinner {&#13;
+        border-top-color: $brand-primary; // #D72828&#13;
+    }&#13;
+}&#13;
+</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>itms_standard_home</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description>An employee's one stop shop to get help.</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:34:51</sys_created_on>
+        <sys_id>b9b1cdac9359c350945375dcebba10ae</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>itms_standard_home</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>sp_page_b9b1cdac9359c350945375dcebba10ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:36:34</sys_updated_on>
+        <title>IT Management System Homepage</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=b9b1cdac9359c350945375dcebba10ae"/>
+</record_update>
