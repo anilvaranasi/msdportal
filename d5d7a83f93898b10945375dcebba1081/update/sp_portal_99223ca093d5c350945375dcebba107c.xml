@@ -26,7 +26,7 @@ $text-muted:#6C757D;</css_variables>
         <default>false</default>
         <embeddable_macroponents/>
         <enable_ais>true</enable_ais>
-        <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_certificate_based_authentication>true</enable_certificate_based_authentication>
         <enable_embeddables>false</enable_embeddables>
         <enable_favorites>true</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
@@ -52,14 +52,14 @@ $text-muted:#6C757D;</css_variables>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-02 09:26:50</sys_created_on>
         <sys_id>99223ca093d5c350945375dcebba107c</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>IT Management System</sys_name>
         <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
         <sys_policy/>
         <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
         <sys_update_name>sp_portal_99223ca093d5c350945375dcebba107c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-02 10:37:08</sys_updated_on>
+        <sys_updated_on>2026-06-03 15:26:07</sys_updated_on>
         <theme display_value="Employee Center Coral Theme">ee2e485f9c0b5250f877097911a1a148</theme>
         <title>IT Management System</title>
         <ts_index_group display_value="portal_index_group">2c3e7d1513c93300e618bfd63244b0d7</ts_index_group>

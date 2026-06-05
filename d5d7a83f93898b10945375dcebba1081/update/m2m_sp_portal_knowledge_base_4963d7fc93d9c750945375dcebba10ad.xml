@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base">
+    <m2m_sp_portal_knowledge_base action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <kb_knowledge_base display_value="Known Error">c0a54bac871023000e3dd61e36cb0bcb</kb_knowledge_base>
+        <order>100</order>
+        <sp_portal display_value="IT Management System">99223ca093d5c350945375dcebba107c</sp_portal>
+        <sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-03 15:49:48</sys_created_on>
+        <sys_id>4963d7fc93d9c750945375dcebba10ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Known Error.IT Management System</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>m2m_sp_portal_knowledge_base_4963d7fc93d9c750945375dcebba10ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-03 15:49:48</sys_updated_on>
+    </m2m_sp_portal_knowledge_base>
+</record_update>
