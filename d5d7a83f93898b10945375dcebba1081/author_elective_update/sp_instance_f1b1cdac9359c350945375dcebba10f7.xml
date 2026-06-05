@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <advanced_placeholder_dimensions>true</advanced_placeholder_dimensions>
+        <async_load>true</async_load>
+        <async_load_device_type>desktop,mobile,tablet</async_load_device_type>
+        <async_load_trigger>viewport</async_load_trigger>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>empty</glyph>
+        <id/>
+        <order>4</order>
+        <placeholder_dimensions>{&#13;
+  "mobile": {&#13;
+    "height": "100%",&#13;
+    "width": "100%"&#13;
+  },&#13;
+  "desktop": {&#13;
+    "height": "100%",&#13;
+    "width": "100%"&#13;
+  },&#13;
+  "tablet": {&#13;
+    "height": "100%",&#13;
+    "width": "100%"&#13;
+  }&#13;
+}</placeholder_dimensions>
+        <placeholder_dimensions_script><![CDATA[function evaluateConfig(options) {
+    return {
+        "mobile": {
+            "height": "100%",
+            "width": "100%"
+        },
+        "desktop": {
+            "height": "100%",
+            "width": "100%"
+        },
+        "tablet": {
+            "height": "100%",
+            "width": "100%"
+        },
+        title: gs.getMessage(options.title)
+    };
+}]]></placeholder_dimensions_script>
+        <placeholder_template>&lt;div class="skeleton-loader-container rfy-skeleton-loader panel panel-wrapper"&gt;&#13;
+  &lt;div class="panel-heading b-b"&gt;&#13;
+    &lt;h3 class="panel-title"&gt;&#13;
+      {{options.advancedOptions.title}}&#13;
+    &lt;/h3&gt;&#13;
+  &lt;/div&gt;&#13;
+  &lt;div class="skeleton-loader-body panel-body" ng-class="{'carousel-view': options.card_behaviour == 'single'  &amp;amp;&amp;amp; options.list_type == 'Card List'}"&gt;&#13;
+    &lt;div class="skeleton-loading-card-container" ng-class="options.card_behaviour == 'single' ? 'single-view' : 'wrap-view'" ng-if="options.list_type == 'Card List'"&gt;&#13;
+      &lt;div ng-repeat="x in ([].constructor(options.limit*1) | limitTo:6) track by $index" class="skeleton-loading-card"&gt;&#13;
+        &lt;div class="skeleton-item skeleton-item-quarter-width"&gt;&lt;/div&gt;&#13;
+        &lt;div class="skeleton-item skeleton-item-full-width"&gt;&lt;/div&gt;&#13;
+        &lt;div class="skeleton-item skeleton-item-half-width"&gt;&lt;/div&gt;&#13;
+      &lt;/div&gt;&#13;
+    &lt;/div&gt;&#13;
+    &lt;div class="skeleton-loader-simple-list-container" ng-if="options.list_type == 'Simple List'"&gt;&#13;
+      &lt;div ng-repeat="x in ([].constructor(options.limit*1) | limitTo:6) track by $index"&gt;&#13;
+        &lt;div class="simple-list-item skeleton-item skeleton-item-three-quarter-width"&gt;&lt;/div&gt;&#13;
+      &lt;/div&gt;&#13;
+    &lt;/div&gt;&#13;
+  &lt;/div&gt;&#13;
+&lt;/div&gt;</placeholder_template>
+        <preserve_placeholder_size>false</preserve_placeholder_size>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">f1b1cdac9359c350945375dcebba10ea</sp_column>
+        <sp_widget display_value="Relevant for you">6cc836d0dbf700500c209493db961914</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:34:52</sys_created_on>
+        <sys_id>f1b1cdac9359c350945375dcebba10f7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Recommended for you</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>sp_instance_f1b1cdac9359c350945375dcebba10f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:40:26</sys_updated_on>
+        <title>Recommended for you</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"user_prediction_count": {
+		"value": null,
+		"displayValue": ""
+	},
+	"recent_activity_cut_off_in_days": {
+		"value": null,
+		"displayValue": ""
+	},
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"limit": {
+		"value": 3,
+		"displayValue": "3"
+	},
+	"category": {
+		"value": "knowledge and catalog",
+		"displayValue": "knowledge and catalog"
+	},
+	"list_type": {
+		"value": "Card List",
+		"displayValue": "Card List"
+	},
+	"card_behaviour": {
+		"value": "single",
+		"displayValue": "single"
+	},
+	"load_config": {
+		"value": "async",
+		"displayValue": "Asynchronous"
+	},
+	"show_empty_state": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=f1b1cdac9359c350945375dcebba10f7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="msdportal">d5d7a83f93898b10945375dcebba1081</application>
+        <file_path/>
+        <instance_id>59e41c79473356186f9ce676706d4384</instance_id>
+        <instance_name>dev296271</instance_name>
+        <name>sp_instance_f1b1cdac9359c350945375dcebba10f7</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;true&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;true&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,mobile,tablet&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;empty&lt;/glyph&gt;&lt;id/&gt;&lt;order&gt;4&lt;/order&gt;&lt;placeholder_dimensions&gt;{&amp;#13;
+  "mobile": {&amp;#13;
+    "height": "100%",&amp;#13;
+    "width": "100%"&amp;#13;
+  },&amp;#13;
+  "desktop": {&amp;#13;
+    "height": "100%",&amp;#13;
+    "width": "100%"&amp;#13;
+  },&amp;#13;
+  "tablet": {&amp;#13;
+    "height": "100%",&amp;#13;
+    "width": "100%"&amp;#13;
+  }&amp;#13;
+}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) {
+    return {
+        "mobile": {
+            "height": "100%",
+            "width": "100%"
+        },
+        "desktop": {
+            "height": "100%",
+            "width": "100%"
+        },
+        "tablet": {
+            "height": "100%",
+            "width": "100%"
+        },
+        title: gs.getMessage(options.title)
+    };
+}]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;div class="skeleton-loader-container rfy-skeleton-loader panel panel-wrapper"&amp;gt;&amp;#13;
+  &amp;lt;div class="panel-heading b-b"&amp;gt;&amp;#13;
+    &amp;lt;h3 class="panel-title"&amp;gt;&amp;#13;
+      {{options.advancedOptions.title}}&amp;#13;
+    &amp;lt;/h3&amp;gt;&amp;#13;
+  &amp;lt;/div&amp;gt;&amp;#13;
+  &amp;lt;div class="skeleton-loader-body panel-body" ng-class="{'carousel-view': options.card_behaviour == 'single'  &amp;amp;amp;&amp;amp;amp; options.list_type == 'Card List'}"&amp;gt;&amp;#13;
+    &amp;lt;div class="skeleton-loading-card-container" ng-class="options.card_behaviour == 'single' ? 'single-view' : 'wrap-view'" ng-if="options.list_type == 'Card List'"&amp;gt;&amp;#13;
+      &amp;lt;div ng-repeat="x in ([].constructor(options.limit*1) | limitTo:6) track by $index" class="skeleton-loading-card"&amp;gt;&amp;#13;
+        &amp;lt;div class="skeleton-item skeleton-item-quarter-width"&amp;gt;&amp;lt;/div&amp;gt;&amp;#13;
+        &amp;lt;div class="skeleton-item skeleton-item-full-width"&amp;gt;&amp;lt;/div&amp;gt;&amp;#13;
+        &amp;lt;div class="skeleton-item skeleton-item-half-width"&amp;gt;&amp;lt;/div&amp;gt;&amp;#13;
+      &amp;lt;/div&amp;gt;&amp;#13;
+    &amp;lt;/div&amp;gt;&amp;#13;
+    &amp;lt;div class="skeleton-loader-simple-list-container" ng-if="options.list_type == 'Simple List'"&amp;gt;&amp;#13;
+      &amp;lt;div ng-repeat="x in ([].constructor(options.limit*1) | limitTo:6) track by $index"&amp;gt;&amp;#13;
+        &amp;lt;div class="simple-list-item skeleton-item skeleton-item-three-quarter-width"&amp;gt;&amp;lt;/div&amp;gt;&amp;#13;
+      &amp;lt;/div&amp;gt;&amp;#13;
+    &amp;lt;/div&amp;gt;&amp;#13;
+  &amp;lt;/div&amp;gt;&amp;#13;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;f1b1cdac9359c350945375dcebba10ea&lt;/sp_column&gt;&lt;sp_widget display_value="Relevant for you"&gt;6cc836d0dbf700500c209493db961914&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-02 10:34:52&lt;/sys_created_on&gt;&lt;sys_id&gt;f1b1cdac9359c350945375dcebba10f7&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Recommended for you&lt;/sys_name&gt;&lt;sys_package display_value="msdportal" source="x_146833_msdportal"&gt;d5d7a83f93898b10945375dcebba1081&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="msdportal"&gt;d5d7a83f93898b10945375dcebba1081&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_f1b1cdac9359c350945375dcebba10f7&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-02 10:40:26&lt;/sys_updated_on&gt;&lt;title&gt;Recommended for you&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"user_prediction_count": {
+		"value": null,
+		"displayValue": ""
+	},
+	"recent_activity_cut_off_in_days": {
+		"value": null,
+		"displayValue": ""
+	},
+	"title": {
+		"value": "",
+		"displayValue": ""
+	},
+	"limit": {
+		"value": 3,
+		"displayValue": "3"
+	},
+	"category": {
+		"value": "knowledge and catalog",
+		"displayValue": "knowledge and catalog"
+	},
+	"list_type": {
+		"value": "Card List",
+		"displayValue": "Card List"
+	},
+	"card_behaviour": {
+		"value": "single",
+		"displayValue": "single"
+	},
+	"load_config": {
+		"value": "async",
+		"displayValue": "Asynchronous"
+	},
+	"show_empty_state": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=f1b1cdac9359c350945375dcebba10f7"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1354004651</payload_hash>
+        <record_name>Recommended for you</record_name>
+        <reverted_from/>
+        <source>a6a5bc339381cb10945375dcebba1032</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:40:26</sys_created_on>
+        <sys_id>5ff2c5a09399c350945375dcebba1011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e87eb9e5b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:40:26</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>dbf2c5a0a299c35087acdade8e27f110</update_guid>
+        <update_guid_history>dbf2c5a0a299c35087acdade8e27f110:1354004651,e9e2c1a0d099c350bb562ffe924f7fa7:275630220,94b28960cc99c350bec2f2c115668c3e:1354004651,7db1cdac7459c350cd4f71d0e2407af9:275630220</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Recommended for you">470389a09399c350945375dcebba102c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:40:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>0a702a13a5084b60bf96e127e8a5fda4</sys_id>
+        <sys_metadata>f1b1cdac9359c350945375dcebba10f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recommended for you</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_scope_delete display_value="">02d61efef9434e308105e71a1139e190</sys_scope_delete>
+        <sys_update_name>sp_instance_f1b1cdac9359c350945375dcebba10f7</sys_update_name>
+        <sys_update_version display_value="sp_instance_f1b1cdac9359c350945375dcebba10f7">5ff2c5a09399c350945375dcebba1011</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:40:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="topic">
+    <topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_to_child_topics>false</apply_to_child_topics>
+        <available_for/>
+        <banner_image/>
+        <banner_image_url/>
+        <banner_img_alt_text/>
+        <description/>
+        <enable_user_criteria_check>false</enable_user_criteria_check>
+        <icon/>
+        <icon_url/>
+        <name>Authentication</name>
+        <not_available_for/>
+        <order>300</order>
+        <parent_topic display_value="App Common Services">c3e253bc93d9c750945375dcebba10db</parent_topic>
+        <sys_class_name>topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-04 05:16:58</sys_created_on>
+        <sys_id>df1c8e4593994b50945375dcebba109a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Authentication</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>topic_df1c8e4593994b50945375dcebba109a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-04 07:56:17</sys_updated_on>
+        <taxonomy display_value="ITMS">273338a493d5c350945375dcebba1004</taxonomy>
+        <template display_value="emp_taxonomy_topic">4fb26c9cc3d030102ec1a589a840ddbd</template>
+        <topic_based_navigation>false</topic_based_navigation>
+        <topic_contributor/>
+        <topic_manager/>
+        <topic_path>Tools &amp; Services Catalog / App Common Services / Authentication</topic_path>
+    </topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=df1c8e4593994b50945375dcebba109a"/>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>sn_ex_sp_taxonomy</category>
+        <css>.rich-carousel-widget .panel {&#13;
+    background: $panel-bg; // #FFFFFF&#13;
+    padding: 10px;&#13;
+    margin: $sp-space--xl $sp-space--lg;&#13;
+    border-radius: $border-radius-large;&#13;
+    -webkit-box-shadow: $sp-panel-box-shadow;&#13;
+    box-shadow: $sp-panel-box-shadow;&#13;
+    border: 1px solid darken($body-bg, 5%);&#13;
+}&#13;
+&#13;
+.topic-breadcrumbs-container .breadcrumbs {&#13;
+    padding-top: 1.375rem;&#13;
+    margin-left: 0.9375rem;&#13;
+    &#13;
+    .nav {&#13;
+        .fa {&#13;
+            color: $text-muted; // #6C757D&#13;
+        }&#13;
+        &#13;
+        a {&#13;
+            color: $link-color; // #0076D6&#13;
+            &#13;
+            &amp;:hover {&#13;
+                color: $brand-primary; // #D72828&#13;
+            }&#13;
+        }&#13;
+    }&#13;
+}&#13;
+&#13;
+[accessibility] [tabindex]:focus,&#13;
+[accessibility] .btn.btn-default:focus {&#13;
+    box-shadow: 0rem 0rem 0rem 0.15rem $brand-primary; // #D72828&#13;
+}&#13;
+</css>
+        <draft>false</draft>
+        <dynamic_title_structure>topic_name</dynamic_title_structure>
+        <human_readable_url_structure/>
+        <id>itms_taxonomy_topic</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:17:06</sys_created_on>
+        <sys_id>6dadbca09359c350945375dcebba10d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>itms_taxonomy_topic</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>sp_page_6dadbca09359c350945375dcebba10d6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:17:34</sys_updated_on>
+        <title>ITMS Topic</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=6dadbca09359c350945375dcebba10d6"/>
+</record_update>
