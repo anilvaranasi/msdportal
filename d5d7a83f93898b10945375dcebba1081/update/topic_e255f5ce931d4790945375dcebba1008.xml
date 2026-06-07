@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="topic">
+    <topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <apply_to_child_topics>true</apply_to_child_topics>
+        <available_for/>
+        <banner_image/>
+        <banner_image_url/>
+        <banner_img_alt_text/>
+        <description/>
+        <enable_user_criteria_check>false</enable_user_criteria_check>
+        <icon/>
+        <icon_url/>
+        <name>Employee Services</name>
+        <not_available_for/>
+        <order/>
+        <parent_topic display_value="Tools &amp; Services Catalog">c8cc78209359c350945375dcebba104e</parent_topic>
+        <sys_class_name>topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-07 06:11:36</sys_created_on>
+        <sys_id>e255f5ce931d4790945375dcebba1008</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Employee Services</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>topic_e255f5ce931d4790945375dcebba1008</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-07 06:22:43</sys_updated_on>
+        <taxonomy display_value="ITMS">273338a493d5c350945375dcebba1004</taxonomy>
+        <template display_value="itms_taxonomy_topic">6dadbca09359c350945375dcebba10d6</template>
+        <topic_based_navigation>false</topic_based_navigation>
+        <topic_contributor/>
+        <topic_manager/>
+        <topic_path>Tools &amp; Services Catalog / Employee Services</topic_path>
+    </topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=e255f5ce931d4790945375dcebba1008"/>
+</record_update>
