@@ -8,21 +8,25 @@
         <roles/>
         <server_script><![CDATA[(function ($sp) {    
    return {        
-      catalogs: $sp.getValue('catalogs') 
+      catalogs: $sp.getValue('catalogs'),
+      branding_key: 'itms_va_branding'
    };
-})($sp);]]></server_script>
+})($sp);
+
+// Made with Bob
+]]></server_script>
         <sys_class_name>sp_agent_chat_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-05 12:08:53</sys_created_on>
         <sys_id>90047021939d8f50945375dcebba103f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>ITMS Virtual Agent</sys_name>
         <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
         <sys_policy/>
         <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
         <sys_update_name>sp_agent_chat_config_90047021939d8f50945375dcebba103f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-05 12:11:14</sys_updated_on>
+        <sys_updated_on>2026-06-08 14:53:39</sys_updated_on>
     </sp_agent_chat_config>
     <sys_translated_text action="delete_multiple" query="documentkey=90047021939d8f50945375dcebba103f"/>
 </record_update>

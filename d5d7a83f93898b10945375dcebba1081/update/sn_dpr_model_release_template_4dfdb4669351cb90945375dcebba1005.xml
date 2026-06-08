@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_dpr_model_release_template">
+    <sn_dpr_model_release_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <duration>0</duration>
+        <global>true</global>
+        <group/>
+        <groups/>
+        <keydate_type/>
+        <link_element/>
+        <name>all_approval_tasks_are_complete</name>
+        <next/>
+        <next_child/>
+        <order>0</order>
+        <parent display_value="Deploy">094d7ca29351cb90945375dcebba1088</parent>
+        <release_process/>
+        <roles/>
+        <short_description>all_approval_tasks_are_complete</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sn_dpr_model_release_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-08 15:26:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4dfdb4669351cb90945375dcebba1005</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>all_approval_tasks_are_complete</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>sn_dpr_model_release_template_4dfdb4669351cb90945375dcebba1005</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-08 15:26:16</sys_updated_on>
+        <table>sn_dpr_pace_policy_mapping</table>
+        <template>policy=f6783cc843590210ab16fc4bbcb8f223^EQ</template>
+        <template_condition/>
+        <template_v2/>
+        <type/>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
+        <v2>false</v2>
+        <validates_version>true</validates_version>
+        <view/>
+    </sn_dpr_model_release_template>
+</record_update>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="DELETE">
+        <can_read>true</can_read>
+        <can_share>false</can_share>
+        <can_write>true</can_write>
+        <dashboard display_value="ITMS Organizational Change Management Metrics">19c209e29391cb90945375dcebba10c7</dashboard>
+        <group display_value="MSD Business Owners" name="MSD Business Owners">369bdc5193d1cb50945375dcebba109a</group>
+        <owner>false</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-08 16:02:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b53601ee9391cb90945375dcebba1069</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>19c209e29391cb90945375dcebba10c7</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>par_dashboard_permission_b53601ee9391cb90945375dcebba1069</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-08 16:02:21</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="msdportal">d5d7a83f93898b10945375dcebba1081</application>
+        <file_path/>
+        <instance_id>59e41c79473356186f9ce676706d4384</instance_id>
+        <instance_name>dev296271</instance_name>
+        <name>par_dashboard_permission_b53601ee9391cb90945375dcebba1069</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission"><par_dashboard_permission action="INSERT_OR_UPDATE"><can_read>true</can_read><can_share>false</can_share><can_write>true</can_write><dashboard display_value="ITMS Organizational Change Management Metrics">19c209e29391cb90945375dcebba10c7</dashboard><group display_value="MSD Business Owners" name="MSD Business Owners">369bdc5193d1cb50945375dcebba109a</group><owner>false</owner><role/><sys_class_name>par_dashboard_permission</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 16:02:21</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b53601ee9391cb90945375dcebba1069</sys_id><sys_mod_count>0</sys_mod_count><sys_name>19c209e29391cb90945375dcebba10c7</sys_name><sys_overrides/><sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package><sys_policy/><sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope><sys_update_name>par_dashboard_permission_b53601ee9391cb90945375dcebba1069</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 16:02:21</sys_updated_on><user/></par_dashboard_permission></record_update>]]></payload>
+        <payload_hash>-435251426</payload_hash>
+        <record_name>19c209e29391cb90945375dcebba10c7</record_name>
+        <reverted_from/>
+        <source>5e5ea25d939d0f50945375dcebba101f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-08 16:02:21</sys_created_on>
+        <sys_id>b13601ee9391cb90945375dcebba106d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ea7f882a70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-08 16:02:21</sys_updated_on>
+        <type>PAR Dashboard Permission</type>
+        <update_guid>713601ee0591cb90dfd39e9251a3906c</update_guid>
+        <update_guid_history>713601ee0591cb90dfd39e9251a3906c:-435251426</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ITMS Organizational Change Management Metrics">b9a6892293d1cb90945375dcebba104d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-08 16:04:17</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_permission">par_dashboard_permission</sys_db_object>
+        <sys_id>11d8e7269b014c589bce95d614b25b90</sys_id>
+        <sys_metadata>b53601ee9391cb90945375dcebba1069</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>19c209e29391cb90945375dcebba10c7</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_scope_delete display_value="">02d61efef9434e308105e71a1139e190</sys_scope_delete>
+        <sys_update_name>par_dashboard_permission_b53601ee9391cb90945375dcebba1069</sys_update_name>
+        <sys_update_version display_value="par_dashboard_permission_b53601ee9391cb90945375dcebba1069">b13601ee9391cb90945375dcebba106d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-08 16:04:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

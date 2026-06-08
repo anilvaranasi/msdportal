@@ -60,7 +60,7 @@
         <sc_ic_version/>
         <sc_template/>
         <secondary_owners/>
-        <short_description/>
+        <short_description>Request an update to existing Digital Product</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state>published</state>
@@ -68,21 +68,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-07 06:34:51</sys_created_on>
         <sys_id>32baf502939d4790945375dcebba103c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Request Update to Digital Product</sys_name>
         <sys_package display_value="Digital Product Release Workspace" source="sn_dpr_workspace">f1364b314385e110509fb18afab8f263</sys_package>
         <sys_policy/>
         <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
         <sys_update_name>sc_cat_item_32baf502939d4790945375dcebba103c</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-06-07 06:37:29</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-07 14:47:47</sys_updated_on>
         <taxonomy_topic display_value="Digital Product Services">c4489f3c931dc750945375dcebba1055</taxonomy_topic>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>37</version>
+        <version>42</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

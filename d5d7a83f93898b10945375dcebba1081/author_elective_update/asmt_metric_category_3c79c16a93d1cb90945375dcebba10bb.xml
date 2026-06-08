@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category">
+    <asmt_metric_category action="DELETE">
+        <create_stakeholders>false</create_stakeholders>
+        <description/>
+        <details/>
+        <filter/>
+        <metric_type display_value="ITMS Customer Satisfaction Survey">31a5337e04824819853388504f8bd464</metric_type>
+        <name>Survey: Question Bank</name>
+        <order>100</order>
+        <qb_evaluation_method/>
+        <roles/>
+        <scoring_type>percent</scoring_type>
+        <sys_class_name>asmt_metric_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-08 16:16:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3c79c16a93d1cb90945375dcebba10bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Survey: Question Bank</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>asmt_metric_category_3c79c16a93d1cb90945375dcebba10bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-08 16:16:30</sys_updated_on>
+        <table>incident</table>
+        <total_metrics>1</total_metrics>
+        <weight>10</weight>
+    </asmt_metric_category>
+    <sys_translated_text action="DELETE" query="documentkey=3c79c16a93d1cb90945375dcebba10bb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="msdportal">d5d7a83f93898b10945375dcebba1081</application>
+        <file_path/>
+        <instance_id>59e41c79473356186f9ce676706d4384</instance_id>
+        <instance_name>dev296271</instance_name>
+        <name>asmt_metric_category_3c79c16a93d1cb90945375dcebba10bb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_category"><asmt_metric_category action="INSERT_OR_UPDATE"><create_stakeholders>false</create_stakeholders><description/><details/><filter/><metric_type display_value="ITMS Customer Satisfaction Survey">31a5337e04824819853388504f8bd464</metric_type><name>Survey: Question Bank</name><order>100</order><qb_evaluation_method/><roles/><scoring_type>percent</scoring_type><sys_class_name>asmt_metric_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-08 16:16:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3c79c16a93d1cb90945375dcebba10bb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Survey: Question Bank</sys_name><sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package><sys_policy/><sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope><sys_update_name>asmt_metric_category_3c79c16a93d1cb90945375dcebba10bb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-08 16:16:30</sys_updated_on><table>incident</table><total_metrics>1</total_metrics><weight>10</weight></asmt_metric_category><sys_translated_text action="delete_multiple" query="documentkey=3c79c16a93d1cb90945375dcebba10bb"/></record_update>]]></payload>
+        <payload_hash>242953094</payload_hash>
+        <record_name>Survey: Question Bank</record_name>
+        <reverted_from/>
+        <source>5e5ea25d939d0f50945375dcebba101f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-08 16:16:30</sys_created_on>
+        <sys_id>b879c16a93d1cb90945375dcebba10c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ea80575b10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-08 16:16:30</sys_updated_on>
+        <type>Metric Category</type>
+        <update_guid>7879c16af0d1cb90ddb71352f0cbcebf</update_guid>
+        <update_guid_history>7879c16af0d1cb90ddb71352f0cbcebf:242953094</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Survey: Question Bank">e14b49ae93d1cb90945375dcebba104a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-08 16:24:28</sys_created_on>
+        <sys_db_object display_value="" name="asmt_metric_category">asmt_metric_category</sys_db_object>
+        <sys_id>200b97ef53304f94999d9c3d4b33ac90</sys_id>
+        <sys_metadata>3c79c16a93d1cb90945375dcebba10bb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Survey: Question Bank</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_scope_delete display_value="">02d61efef9434e308105e71a1139e190</sys_scope_delete>
+        <sys_update_name>asmt_metric_category_3c79c16a93d1cb90945375dcebba10bb</sys_update_name>
+        <sys_update_version display_value="asmt_metric_category_3c79c16a93d1cb90945375dcebba10bb">b879c16a93d1cb90945375dcebba10c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-08 16:24:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

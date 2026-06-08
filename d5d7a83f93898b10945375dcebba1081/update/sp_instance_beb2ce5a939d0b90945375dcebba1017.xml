@@ -10,7 +10,7 @@
         <css/>
         <glyph/>
         <id/>
-        <order>2</order>
+        <order>1</order>
         <placeholder_dimensions>{&#13;	"mobile": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	},&#13;	"desktop": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	},&#13;	"tablet": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	}&#13;}</placeholder_dimensions>
         <placeholder_dimensions_script><![CDATA[function evaluateConfig(options) { return {	"mobile": {		"height": "250px",		"width": "100%"	},	"desktop": {		"height": "250px",		"width": "100%"	},	"tablet": {		"height": "250px",		"width": "100%"	}}; }]]></placeholder_dimensions_script>
         <placeholder_template>&lt;!-- 
@@ -32,23 +32,23 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="3">5020462493150750945375dcebba1013</sp_column>
-        <sp_widget display_value="My Items">6e449453c33030105a09f0ad9840ddf0</sp_widget>
+        <sp_column display_value="2">3b72c25a939d0b90945375dcebba10a9</sp_column>
+        <sp_widget display_value="My Digital Products">a4f18a92935d0b90945375dcebba10a9</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-02 10:42:01</sys_created_on>
-        <sys_id>225309e09399c350945375dcebba102c</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_created_on>2026-06-08 01:48:17</sys_created_on>
+        <sys_id>beb2ce5a939d0b90945375dcebba1017</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
         <sys_policy/>
         <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
-        <sys_update_name>sp_instance_225309e09399c350945375dcebba102c</sys_update_name>
+        <sys_update_name>sp_instance_beb2ce5a939d0b90945375dcebba1017</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-02 15:09:02</sys_updated_on>
+        <sys_updated_on>2026-06-08 02:55:31</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters/>
     </sp_instance>
-    <sys_translated_text action="delete_multiple" query="documentkey=225309e09399c350945375dcebba102c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=beb2ce5a939d0b90945375dcebba1017"/>
 </record_update>
