@@ -6,7 +6,7 @@
         <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <created_on>2026-06-08 15:47:18</created_on>
         <dashboard display_value="ITMS Organizational Change Management Metrics">19c209e29391cb90945375dcebba10c7</dashboard>
-        <edit_locked/>
+        <edit_locked>{"sysId":"41ab949193d1cb50945375dcebba10ad","name":"Lay Hoon Chua","lockedOn":"1781057798891"}</edit_locked>
         <enable_data_cache>false</enable_data_cache>
         <include_custom_insights>true</include_custom_insights>
         <include_insight_sentiment>false</include_insight_sentiment>
@@ -35,15 +35,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>51c24de29391cb90945375dcebba108c</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
         <sys_policy/>
         <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
         <sys_update_name>par_dashboard_user_metadata_51c24de29391cb90945375dcebba108c</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-08 16:04:17</sys_updated_on>
+        <sys_updated_by>business.owner.com@msd.gov.sg</sys_updated_by>
+        <sys_updated_on>2026-06-10 02:16:38</sys_updated_on>
         <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
         <use_custom_tab_colors>false</use_custom_tab_colors>
         <widgets_margin>$now-global-space--sm</widgets_margin>

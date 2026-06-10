@@ -4,7 +4,7 @@
         <active>true</active>
         <availability>on_both</availability>
         <billable>false</billable>
-        <category display_value="Services">109f0438c6112276003ae8ac13e7009d</category>
+        <category display_value="Digital Product Services">0bb3a4c7931903d0945375dcebba10a5</category>
         <cc_render_type>system</cc_render_type>
         <checked_out/>
         <cost>0</cost>
@@ -64,7 +64,7 @@
         <sc_ic_version/>
         <sc_template/>
         <secondary_owners/>
-        <short_description>Have a question for another engineering group?		</short_description>
+        <short_description>Raise a general request to a digital service team</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <state/>
@@ -72,21 +72,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-02 10:29:05</sys_created_on>
         <sys_id>d16049689359c350945375dcebba10d9</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Raise a General Request</sys_name>
         <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
         <sys_policy/>
         <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
         <sys_update_name>sc_cat_item_d16049689359c350945375dcebba10d9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-02 10:30:33</sys_updated_on>
+        <sys_updated_on>2026-06-10 03:03:53</sys_updated_on>
         <taxonomy_topic display_value="Developer services">988497a7c3053010069aec4b7d40ddea</taxonomy_topic>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>4</version>
+        <version>6</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

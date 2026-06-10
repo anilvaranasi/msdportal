@@ -7,7 +7,7 @@
         <display_2/>
         <display_date/>
         <filter/>
-        <glyph>empty</glyph>
+        <glyph>question</glyph>
         <hint/>
         <kb_article/>
         <kb_category display_value="FAQs">be5705ac9399c350945375dcebba1073</kb_category>
@@ -25,14 +25,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-02 10:55:38</sys_created_on>
         <sys_id>75260da89399c350945375dcebba10f1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>FAQs</sys_name>
         <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
         <sys_policy/>
         <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_75260da89399c350945375dcebba10f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-04 07:49:21</sys_updated_on>
+        <sys_updated_on>2026-06-10 09:35:40</sys_updated_on>
         <table/>
         <type>kb_category</type>
         <url/>

@@ -38,20 +38,20 @@
         <short_description>Browse Knowledge Content</short_description>
         <size>md</size>
         <sp_column display_value="2">9420462493150750945375dcebba100f</sp_column>
-        <sp_page/>
+        <sp_page display_value="kb_home">e1c919e4dbd3220099f93691f0b8f535</sp_page>
         <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
         <sys_class_name>sp_instance_link</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-02 15:09:01</sys_created_on>
         <sys_id>4a7082a893d10750945375dcebba10b2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Knowledge Base</sys_name>
         <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
         <sys_policy/>
         <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
         <sys_update_name>sp_instance_link_4a7082a893d10750945375dcebba10b2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-02 15:10:12</sys_updated_on>
+        <sys_updated_on>2026-06-09 08:18:31</sys_updated_on>
         <title>Knowledge Base</title>
         <type>page</type>
         <url/>

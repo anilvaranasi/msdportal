@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Onboard a new employee">fb8a590f935543d0945375dcebba10ce</sc_cat_item>
+        <sc_category display_value="Join, Move, &amp; Leave">4334514f935143d0945375dcebba10c8</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-10 09:06:45</sys_created_on>
+        <sys_id>4d4ab503935d43d0945375dcebba1022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Join, Move, &amp; Leave.Onboard a new employee</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>sc_cat_item_category_4d4ab503935d43d0945375dcebba1022</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-10 09:06:45</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

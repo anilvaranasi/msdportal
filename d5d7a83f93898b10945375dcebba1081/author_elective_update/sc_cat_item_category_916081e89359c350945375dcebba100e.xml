@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Consulting Request ">d16049689359c350945375dcebba10d9</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:29:05</sys_created_on>
+        <sys_id>916081e89359c350945375dcebba100e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Consulting Request </sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>sc_cat_item_category_916081e89359c350945375dcebba100e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:29:05</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="msdportal">d5d7a83f93898b10945375dcebba1081</application>
+        <file_path/>
+        <instance_id>59e41c79473356186f9ce676706d4384</instance_id>
+        <instance_name>dev296271</instance_name>
+        <name>sc_cat_item_category_916081e89359c350945375dcebba100e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Consulting Request ">d16049689359c350945375dcebba10d9</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-02 10:29:05</sys_created_on><sys_id>916081e89359c350945375dcebba100e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Consulting Request </sys_name><sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package><sys_policy/><sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope><sys_update_name>sc_cat_item_category_916081e89359c350945375dcebba100e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-02 10:29:05</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-821620879</payload_hash>
+        <record_name>Services.Consulting Request </record_name>
+        <reverted_from/>
+        <source>a6a5bc339381cb10945375dcebba1032</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-02 10:29:06</sys_created_on>
+        <sys_id>996081e89359c350945375dcebba1046</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e87e13de50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-02 10:29:06</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>596081e8bf59c350d570f9901081a645</update_guid>
+        <update_guid_history>596081e8bf59c350d570f9901081a645:-821620879</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Consulting Request ">fbc3a8c7931903d0945375dcebba101b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-10 02:49:00</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>bbe145b6f23c450c9f04d084471f7a90</sys_id>
+        <sys_metadata>916081e89359c350945375dcebba100e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Consulting Request </sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_scope_delete display_value="">02d61efef9434e308105e71a1139e190</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_916081e89359c350945375dcebba100e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_916081e89359c350945375dcebba100e">996081e89359c350945375dcebba1046</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-10 02:49:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
