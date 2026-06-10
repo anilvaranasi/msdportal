@@ -18,24 +18,24 @@
         <sc_cat_item display_value="Create Incident">3f1dd0320a0a0b99000a53f7604a2ef9</sc_cat_item>
         <sc_category/>
         <short_description/>
-        <sp_page display_value="esc_sc_cat_item">c0728d1373675300c629e1e54cf6a7b3</sp_page>
+        <sp_page/>
         <sp_rectangle_menu display_value="ITMS Menu">830c38ac9319c350945375dcebba10fe</sp_rectangle_menu>
         <sp_rectangle_menu_item/>
         <sys_class_name>sp_rectangle_menu_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-04 08:12:25</sys_created_on>
         <sys_id>b24476cd93118b50945375dcebba10f1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>My Digital Products</sys_name>
         <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
         <sys_policy/>
         <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
         <sys_update_name>sp_rectangle_menu_item_b24476cd93118b50945375dcebba10f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-04 08:14:29</sys_updated_on>
+        <sys_updated_on>2026-06-05 14:49:01</sys_updated_on>
         <table/>
-        <type>sc_cat_item</type>
-        <url/>
+        <type>url</type>
+        <url>/now/dpm/home</url>
         <url_target/>
     </sp_rectangle_menu_item>
     <sys_translated_text action="delete_multiple" query="documentkey=b24476cd93118b50945375dcebba10f1"/>

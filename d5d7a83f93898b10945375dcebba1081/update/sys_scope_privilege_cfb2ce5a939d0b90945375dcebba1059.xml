@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-08 01:48:18</sys_created_on>
+        <sys_id>cfb2ce5a939d0b90945375dcebba1059</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ActivityConfigurationUtil</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>sys_scope_privilege_cfb2ce5a939d0b90945375dcebba1059</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-08 01:48:18</sys_updated_on>
+        <target_name>ActivityConfigurationUtil</target_name>
+        <target_scope display_value="Employee Center">4249e63a28d54d61bb6fbf61fd86cccb</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+</record_update>

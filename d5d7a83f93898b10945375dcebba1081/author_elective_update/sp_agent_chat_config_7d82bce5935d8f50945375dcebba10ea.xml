@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_agent_chat_config">
+    <sp_agent_chat_config action="DELETE">
+        <active>false</active>
+        <name>ITMS Virtual Agent</name>
+        <order>100</order>
+        <portal>fd2a6d05ed45445c99baa815fb2b65a8</portal>
+        <public>false</public>
+        <roles/>
+        <server_script><![CDATA[(function($sp) {
+    var isVAActive = GlidePluginManager.isActive('com.glide.cs.chatbot') || GlidePluginManager.isActive("com.glide.cs.chatbot.lite");
+    var configObj = {};
+    configObj.portal = $sp.getValue('url_suffix');
+    configObj.live_agent_only = !isVAActive;
+    configObj.consumer_account_context = 'itms';
+    return configObj;
+})($sp);]]></server_script>
+        <sys_class_name>sp_agent_chat_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-05 12:02:26</sys_created_on>
+        <sys_id>7d82bce5935d8f50945375dcebba10ea</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>ITMS Virtual Agent</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>sp_agent_chat_config_7d82bce5935d8f50945375dcebba10ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-05 12:06:44</sys_updated_on>
+    </sp_agent_chat_config>
+    <sys_translated_text action="DELETE" query="documentkey=7d82bce5935d8f50945375dcebba10ea"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="msdportal">d5d7a83f93898b10945375dcebba1081</application>
+        <file_path/>
+        <instance_id>59e41c79473356186f9ce676706d4384</instance_id>
+        <instance_name>dev296271</instance_name>
+        <name>sp_agent_chat_config_7d82bce5935d8f50945375dcebba10ea</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_agent_chat_config"&gt;&lt;sp_agent_chat_config action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;name&gt;ITMS Virtual Agent&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;portal&gt;fd2a6d05ed45445c99baa815fb2b65a8&lt;/portal&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;server_script&gt;&lt;![CDATA[(function($sp) {
+    var isVAActive = GlidePluginManager.isActive('com.glide.cs.chatbot') || GlidePluginManager.isActive("com.glide.cs.chatbot.lite");
+    var configObj = {};
+    configObj.portal = $sp.getValue('url_suffix');
+    configObj.live_agent_only = !isVAActive;
+    configObj.consumer_account_context = 'itms';
+    return configObj;
+})($sp);]]&gt;&lt;/server_script&gt;&lt;sys_class_name&gt;sp_agent_chat_config&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-05 12:02:26&lt;/sys_created_on&gt;&lt;sys_id&gt;7d82bce5935d8f50945375dcebba10ea&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;ITMS Virtual Agent&lt;/sys_name&gt;&lt;sys_package display_value="msdportal" source="x_146833_msdportal"&gt;d5d7a83f93898b10945375dcebba1081&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="msdportal"&gt;d5d7a83f93898b10945375dcebba1081&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_agent_chat_config_7d82bce5935d8f50945375dcebba10ea&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-05 12:06:44&lt;/sys_updated_on&gt;&lt;/sp_agent_chat_config&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=7d82bce5935d8f50945375dcebba10ea"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-820022977</payload_hash>
+        <record_name>ITMS Virtual Agent</record_name>
+        <reverted_from/>
+        <source>5e5ea25d939d0f50945375dcebba101f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-05 12:06:44</sys_created_on>
+        <sys_id>f88330ad935d8f50945375dcebba104b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19e97adb4c70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-05 12:06:44</sys_updated_on>
+        <type>Service Portal Agent Chat Configuration</type>
+        <update_guid>788330ad045d8f50e7f233004ef0584a</update_guid>
+        <update_guid_history>788330ad045d8f50e7f233004ef0584a:-820022977,6343f46d185d8f50ecab34ee695df547:-1795332346,73c2b8e9425d8f501121bd3888e8ddd1:-869610920,caa270e9b05d8f5081ac5e54d80af8c7:-2008348840,75823ca91f5d8f50f482e7ebe06a8bc0:91524305</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ITMS Virtual Agent">3cf3bced935d8f50945375dcebba1019</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-05 12:08:39</sys_created_on>
+        <sys_db_object display_value="" name="sp_agent_chat_config">sp_agent_chat_config</sys_db_object>
+        <sys_id>73e7de059d5c493f8b9c555702a55519</sys_id>
+        <sys_metadata>7d82bce5935d8f50945375dcebba10ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ITMS Virtual Agent</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_scope_delete display_value="">02d61efef9434e308105e71a1139e190</sys_scope_delete>
+        <sys_update_name>sp_agent_chat_config_7d82bce5935d8f50945375dcebba10ea</sys_update_name>
+        <sys_update_version display_value="sp_agent_chat_config_7d82bce5935d8f50945375dcebba10ea">f88330ad935d8f50945375dcebba104b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-05 12:08:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

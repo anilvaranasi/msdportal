@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">0efee8c7939903d0945375dcebba10e1</canvas>
+        <component display_value="Pivot Table">06f6aacbd1818110f877d87436272684</component>
+        <component_props>{"freezeHeader":true,"freezeFooter":false,"showPivotExpanded":true,"freezeFirstColumn":true,"showAlternateRowColors":true,"showAlternateColumnColors":false,"showRowDividers":false,"truncateFirstColumn":true,"wrapColumnHeader":false,"truncateColumnHeader":true,"showColumnDividers":true,"showRowAggregate":true,"showColumnAggregate":true,"showSubAggregate":false,"enableDrilldown":true,"showZero":true,"userInfo":"@context.session.user","colorConfig":{"type":"default"},"newReporting":true,"enableAddZerosAtApi":true,"additionalGroupByConfig":null,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Assessment Instance Question","sourceType":"table","tableOrViewName":"asmt_assessment_instance_question","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVhc210X2Fzc2Vzc21lbnRfaW5zdGFuY2VfcXVlc3Rpb24xNzgxMDcxNzE3MDQz","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":true,"showFirstGroupAggregate":true,"showSecondGroupAggregate":true,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGVhc210X2Fzc2Vzc21lbnRfaW5zdGFuY2VfcXVlc3Rpb24xNzgxMDcxNzE3MDQz","id":"ZEdGaWJHVmhjMjEwWDJGemMyVnpjMjFsYm5SZmFXNXpkR0Z1WTJWZmNYVmxjM1JwYjI0eE56Z3hNRGN4TnpFM01EUXoxNzgxMDcxNzIwMjM3","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGVhc210X2Fzc2Vzc21lbnRfaW5zdGFuY2VfcXVlc3Rpb24xNzgxMDcxNzE3MDQz","groupByField":"instance.metric_type","isRange":false,"isChoice":false,"isPaBucket":false}],"categoryIndex":0,"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":true},{"groupBy":[{"dataSource":"dGFibGVhc210X2Fzc2Vzc21lbnRfaW5zdGFuY2VfcXVlc3Rpb24xNzgxMDcxNzE3MDQz","groupByField":"category","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":20,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":true,"categoryIndex":1}],"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"4t92d6vn","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"scoreType":"latest","showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"colors":{}}</component_props>
+        <h>18</h>
+        <name/>
+        <required_translations>[{"comment":"","message":"Assessment Instance Question","code":"PAR_DASHBOARD.0efee8c7939903d0945375dcebba10e1.b882d9c7935143d0945375dcebba100e"},{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.0efee8c7939903d0945375dcebba10e1.b882d9c7935143d0945375dcebba100e"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.0efee8c7939903d0945375dcebba10e1.b882d9c7935143d0945375dcebba100e"}]</required_translations>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-10 06:13:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b882d9c7935143d0945375dcebba100e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>par_dashboard_widget_b882d9c7935143d0945375dcebba100e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-10 06:13:03</sys_updated_on>
+        <visualization/>
+        <w>47</w>
+        <widget_props/>
+        <x>0</x>
+        <y>12</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="msdportal">d5d7a83f93898b10945375dcebba1081</application>
+        <file_path/>
+        <instance_id>59e41c79473356186f9ce676706d4384</instance_id>
+        <instance_name>dev296271</instance_name>
+        <name>par_dashboard_widget_b882d9c7935143d0945375dcebba100e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">0efee8c7939903d0945375dcebba10e1</canvas><component display_value="Pivot Table">06f6aacbd1818110f877d87436272684</component><component_props>{"freezeHeader":true,"freezeFooter":false,"showPivotExpanded":true,"freezeFirstColumn":true,"showAlternateRowColors":true,"showAlternateColumnColors":false,"showRowDividers":false,"truncateFirstColumn":true,"wrapColumnHeader":false,"truncateColumnHeader":true,"showColumnDividers":true,"showRowAggregate":true,"showColumnAggregate":true,"showSubAggregate":false,"enableDrilldown":true,"showZero":true,"userInfo":"@context.session.user","colorConfig":{"type":"default"},"newReporting":true,"enableAddZerosAtApi":true,"additionalGroupByConfig":null,"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Assessment Instance Question","sourceType":"table","tableOrViewName":"asmt_assessment_instance_question","filterQuery":"","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGVhc210X2Fzc2Vzc21lbnRfaW5zdGFuY2VfcXVlc3Rpb24xNzgxMDcxNzE3MDQz","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":true,"showFirstGroupAggregate":true,"showSecondGroupAggregate":true,"hideMatrixAggregate":false,"lineClamp":1,"headerTitleAlignment":"start","wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":false,"contextMenuActions":[],"headingLevel":2,"showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"metrics":[{"dataSource":"dGFibGVhc210X2Fzc2Vzc21lbnRfaW5zdGFuY2VfcXVlc3Rpb24xNzgxMDcxNzE3MDQz","id":"ZEdGaWJHVmhjMjEwWDJGemMyVnpjMjFsYm5SZmFXNXpkR0Z1WTJWZmNYVmxjM1JwYjI0eE56Z3hNRGN4TnpFM01EUXoxNzgxMDcxNzIwMjM3","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":[{"groupBy":[{"dataSource":"dGFibGVhc210X2Fzc2Vzc21lbnRfaW5zdGFuY2VfcXVlc3Rpb24xNzgxMDcxNzE3MDQz","groupByField":"instance.metric_type","isRange":false,"isChoice":false,"isPaBucket":false}],"categoryIndex":0,"maxNumberOfGroups":10,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"hideZeroValues":false,"disableRanges":true},{"groupBy":[{"dataSource":"dGFibGVhc210X2Fzc2Vzc21lbnRfaW5zdGFuY2VfcXVlc3Rpb24xNzgxMDcxNzE3MDQz","groupByField":"category","isRange":false,"isChoice":false,"isPaBucket":false}],"maxNumberOfGroups":20,"numberOfGroupsBasedOn":"NO_OF_GROUP_BASED_ON_PER_METRIC","showOthers":false,"disableRanges":true,"categoryIndex":1}],"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"4t92d6vn","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"autoAggregatePeriods":false,"scoreType":"latest","showChangeFrom":"previous","useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showExportOptions":true,"showFilterAsSeparateSeries":false,"colors":{}}</component_props><h>18</h><name/><required_translations>[{"comment":"","message":"Assessment Instance Question","code":"PAR_DASHBOARD.0efee8c7939903d0945375dcebba10e1.b882d9c7935143d0945375dcebba100e"},{"comment":"","message":"No data available.","code":"PAR_DASHBOARD.0efee8c7939903d0945375dcebba10e1.b882d9c7935143d0945375dcebba100e"},{"comment":"","message":"There are no scores available for the selected criteria. Contact your admin for more info.","code":"PAR_DASHBOARD.0efee8c7939903d0945375dcebba10e1.b882d9c7935143d0945375dcebba100e"}]</required_translations><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-10 06:13:03</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b882d9c7935143d0945375dcebba100e</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package><sys_policy/><sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope><sys_update_name>par_dashboard_widget_b882d9c7935143d0945375dcebba100e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-10 06:13:03</sys_updated_on><visualization/><w>47</w><widget_props/><x>0</x><y>12</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-131726608</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>5e5ea25d939d0f50945375dcebba101f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-10 06:13:03</sys_created_on>
+        <sys_id>f082d9c7935143d0945375dcebba1012</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eb029b4050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-10 06:13:03</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>b082d9c7af5143d00c6748ce23c41211</update_guid>
+        <update_guid_history>b082d9c7af5143d00c6748ce23c41211:-131726608</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">4e821dc7935143d0945375dcebba1047</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-10 06:13:09</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>357808f261d44f7c994a61b10de8e3c4</sys_id>
+        <sys_metadata>b882d9c7935143d0945375dcebba100e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_scope_delete display_value="">02d61efef9434e308105e71a1139e190</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_b882d9c7935143d0945375dcebba100e</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_b882d9c7935143d0945375dcebba100e">f082d9c7935143d0945375dcebba1012</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-10 06:13:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

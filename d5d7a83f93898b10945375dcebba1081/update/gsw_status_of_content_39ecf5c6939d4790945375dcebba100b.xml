@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_status_of_content">
+    <gsw_status_of_content action="INSERT_OR_UPDATE">
+        <best_practice_allowed_ever>0</best_practice_allowed_ever>
+        <checksum/>
+        <content display_value="Advanced Work Assignment">203cf787db021050ab1354e4dc96199d</content>
+        <effective_weight>1</effective_weight>
+        <more_info_visited>false</more_info_visited>
+        <previous_status>0</previous_status>
+        <progress>100</progress>
+        <related_log_entry display_value="2026-06-08 23:06:53">4589b8a69311cb90945375dcebba104c</related_log_entry>
+        <status>2</status>
+        <sys_class_name>gsw_status_of_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-07 06:44:20</sys_created_on>
+        <sys_id>39ecf5c6939d4790945375dcebba100b</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>gsw_status_of_content_39ecf5c6939d4790945375dcebba100b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-08 15:06:53</sys_updated_on>
+    </gsw_status_of_content>
+</record_update>

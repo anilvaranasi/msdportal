@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_condition">
+    <asmt_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assessment display_value="ITMS Customer Satisfaction Survey">31a5337e04824819853388504f8bd464</assessment>
+        <assessment_record/>
+        <assessment_record_field/>
+        <business_rule display_value="Auto assessment business rule">7e1fb84b935d03d0945375dcebba100e</business_rule>
+        <condition table="incident">active=true^state=6^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="6"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <duration>1970-01-02 00:00:00</duration>
+        <percent_random>100</percent_random>
+        <related_field_1>caller_id</related_field_1>
+        <related_field_2/>
+        <related_field_3/>
+        <related_field_4/>
+        <sys_class_name>asmt_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-10 04:48:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b1fef88b935d03d0945375dcebba108b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>asmt_condition_b1fef88b935d03d0945375dcebba108b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-10 05:11:20</sys_updated_on>
+        <table>incident</table>
+        <trigger_random>false</trigger_random>
+        <user_field>caller_id</user_field>
+    </asmt_condition>
+</record_update>

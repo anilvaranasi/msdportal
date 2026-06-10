@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>3</order>
+        <published_ref/>
+        <question display_value="Data Security Classification">ebbaf902939d4790945375dcebba1094</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-07 06:34:55</sys_created_on>
+        <sys_id>b3baf902939d4790945375dcebba10f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Public</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>question_choice_b3baf902939d4790945375dcebba10f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-07 06:34:55</sys_updated_on>
+        <text>Public</text>
+        <value>public</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=b3baf902939d4790945375dcebba10f4"/>
+</record_update>

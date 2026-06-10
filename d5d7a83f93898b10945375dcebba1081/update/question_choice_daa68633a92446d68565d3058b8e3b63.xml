@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>0</order>
+        <published_ref/>
+        <question display_value="Data Security Classification">ea0f7156ae8640f4a9b61da5f82b116a</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-07 06:33:56</sys_created_on>
+        <sys_id>daa68633a92446d68565d3058b8e3b63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Confidential</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>question_choice_daa68633a92446d68565d3058b8e3b63</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-07 06:33:56</sys_updated_on>
+        <text>Confidential</text>
+        <value>confidential</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=daa68633a92446d68565d3058b8e3b63"/>
+</record_update>
