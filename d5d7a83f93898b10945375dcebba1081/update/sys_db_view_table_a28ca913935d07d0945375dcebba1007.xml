@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 02:45:15</sys_created_on>
+        <sys_id>a28ca913935d07d0945375dcebba1007</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_risk_advanced_consolidated_data_store</sys_name>
+        <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
+        <sys_update_name>sys_db_view_table_a28ca913935d07d0945375dcebba1007</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 02:45:15</sys_updated_on>
+        <table>sn_risk_advanced_consolidated_data_store</table>
+        <variable_prefix>cds</variable_prefix>
+        <view display_value="it_risk_assessment_view">5a8c6913935d07d0945375dcebba10b6</view>
+        <where_clause/>
+    </sys_db_view_table>
+</record_update>

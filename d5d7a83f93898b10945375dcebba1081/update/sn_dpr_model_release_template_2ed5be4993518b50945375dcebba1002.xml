@@ -23,14 +23,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2ed5be4993518b50945375dcebba1002</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>ITMS Standard Template</sys_name>
         <sys_package display_value="msdportal" source="x_146833_msdportal">d5d7a83f93898b10945375dcebba1081</sys_package>
         <sys_policy/>
         <sys_scope display_value="msdportal">d5d7a83f93898b10945375dcebba1081</sys_scope>
         <sys_update_name>sn_dpr_model_release_template_2ed5be4993518b50945375dcebba1002</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-04 11:25:44</sys_updated_on>
+        <sys_updated_on>2026-06-08 15:26:20</sys_updated_on>
         <table>sn_dpr_model_release</table>
         <template>name=ITMS Standard Template^EQ</template>
         <template_condition/>

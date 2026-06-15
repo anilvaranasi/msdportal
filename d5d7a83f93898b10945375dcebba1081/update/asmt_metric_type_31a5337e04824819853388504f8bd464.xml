@@ -20,9 +20,12 @@
         <evaluation_method>survey</evaluation_method>
         <filter_condition/>
         <filter_table/>
+        <grc_classification display_value="None">ebfbf2b7076220100deb2bfb9bd300ba</grc_classification>
+        <grc_type/>
         <introduction/>
         <job/>
         <live_feed>false</live_feed>
+        <ms_adaptive_cards>false</ms_adaptive_cards>
         <name>ITMS Customer Satisfaction Survey</name>
         <not_show_intro_note>false</not_show_intro_note>
         <notify_if_overdue>false</notify_if_overdue>
